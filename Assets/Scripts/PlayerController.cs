@@ -43,11 +43,7 @@ public class PlayerController : MonoBehaviour
 
                 Vector3 move = playerCamera.transform.TransformDirection(new Vector3(movement.x, 0f, movement.y)) * speed;
                 
-                
                 rb.velocity = new Vector3(move.x, rb.velocity.y, move.z);
-                // transform.position += new Vector3(move.x, 0f, move.z) * speed * Time.deltaTime;
-                // transform.Translate(new Vector3(move.x, 0f, move.z) * speed * Time.deltaTime);
-                // rb.MovePosition(transform.position + move * speed * Time.deltaTime);
 
                 // playerBody.transform.eulerAngles = new Vector3(0f, playerCamera.transform.eulerAngles.y, 0f);              
             }

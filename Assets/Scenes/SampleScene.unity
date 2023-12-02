@@ -1935,10 +1935,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootPoint: {fileID: 1683893436}
   bulletPrefab: {fileID: 3200708551827939536, guid: e6787eda316659947a2bd3719d1acb1e, type: 3}
+  shotHolePrefab: {fileID: 3339397196434008835, guid: 65e61508e328c7049817676ae169791e, type: 3}
   maxShootDistance: 20
   ShootCooldown: 1
   shootCd: 0
   canShoot: 1
+  spreadAngle: 3
+  numberOfShots: 1000
 --- !u!1 &2114582020
 GameObject:
   m_ObjectHideFlags: 0
