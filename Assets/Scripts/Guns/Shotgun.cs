@@ -11,7 +11,24 @@ public class Shotgun : Gun
 
     private void Update()
     {
-        Shoot();
+        Shooting();
         Zoom();
+    }
+
+    public override void Shooting()
+    {
+        if(shootCd <= 0f)
+        {
+            if(InputManager.Instance.PlayerLeftMouse())
+            {
+                Shoot();
+                Debug.Log($"Shooting");
+                shootCd = ShootCooldown;
+            }            
+        }
+        else
+        {
+            shootCd -= Time.deltaTime;
+        }
     }
 }

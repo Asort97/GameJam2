@@ -7,7 +7,8 @@ public abstract class Gun: MonoBehaviour
 {
     [SerializeField] private Transform shootPoint;
     [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private float ShootCooldown;
+    [SerializeField] private float maxShootDistance;
+    public float ShootCooldown;
     public float shootCd;
     public bool canShoot;
     
@@ -16,22 +17,17 @@ public abstract class Gun: MonoBehaviour
         shootCd = ShootCooldown;
     }
 
-    public virtual void Shoot()
+    public void Shoot()
     {
-        if(shootCd <= 0f)
-        {
-            if(InputManager.Instance.PlayerLeftMouse())
-            {
-                Instantiate(bulletPrefab, shootPoint.position, Quaternion.identity);
+        RaycastHit hit;
 
-                shootCd = ShootCooldown;
-            }            
-        }
-        else
+        if(Physics.Raycast(shootPoint.position, transform.TransformDirection(Vector3.forward), out hit, maxShootDistance))
         {
-            shootCd -= Time.deltaTime;
+            Debug.DrawRay(shootPoint.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
         }
     }
+
+    public virtual void Shooting() {}
 
     public virtual void Zoom()
     {
