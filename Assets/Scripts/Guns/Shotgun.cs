@@ -30,7 +30,7 @@ public class Shotgun : Gun
 
                     RaycastHit hitInfo;
 
-                    if (Physics.Raycast(shootPoint.position, direction, out hitInfo, maxShootDistance))
+                    if (Physics.Raycast(centerOfCamera, direction, out hitInfo, maxShootDistance))
                     {
                         Instantiate(shotHolePrefab, hitInfo.point, Quaternion.identity);
                         Debug.DrawRay(shootPoint.position, direction * hitInfo.distance, Color.yellow);
