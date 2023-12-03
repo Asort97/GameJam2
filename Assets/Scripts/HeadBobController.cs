@@ -10,7 +10,10 @@ public class HeadBobController : MonoBehaviour
     [SerializeField, Range(0, 0.1f)] private float amplitudeY = 0.015f;
     [SerializeField, Range(0, 0.1f)] private float amplitudeX = 0.015f;
     [SerializeField, Range(0, 30f)] private float frequency = 10f;
+    [SerializeField] private float stepAfterValue = 0.0019f;
     [SerializeField] private CinemachineVirtualCamera virtualCamera;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clip;
     [SerializeField] private Transform playerCamera;
     [SerializeField] private Transform cameraHolder;
     [SerializeField] private PlayerController playerController;
@@ -59,12 +62,13 @@ public class HeadBobController : MonoBehaviour
 
         axises = new Vector3(xCos, 0 ,0);
 
-        if(Mathf.Abs(xCos) >= 0.0039f && isStep)
+        if(Mathf.Abs(xCos) >= stepAfterValue && isStep)
         {
             Debug.Log($"Step");
+            audioSource.PlayOneShot(clip);
             isStep = false;
         }
-        else if (Mathf.Abs(xCos) < 0.0039f)
+        else if (Mathf.Abs(xCos) < stepAfterValue)
         {
             isStep = true;
         }

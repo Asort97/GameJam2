@@ -8,6 +8,7 @@ public class DialogManager : MonoBehaviour
 {
     public static DialogManager instance;
     [SerializeField] private GameObject dialogMenu;
+    [SerializeField] private TextWriter textWriter;
     [SerializeField] private TMP_Text monologLineText;
     [SerializeField] private TMP_Text nameText;
     
@@ -53,7 +54,8 @@ public class DialogManager : MonoBehaviour
         dialogMenu.SetActive(true);
 
         nameText.text = currentName;
-        monologLineText.text = currentMonolog[currentLineMonolog];
+        textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.05f);
+        // monologLineText.text = currentMonolog[currentLineMonolog];
     }
 
     private void NextLine()
@@ -61,7 +63,8 @@ public class DialogManager : MonoBehaviour
         if(InputManager.Instance.PlayerLeftMouse() && currentLineMonolog < currentMonolog.Length)
         {
             currentLineMonolog++;
-            monologLineText.text = currentMonolog[currentLineMonolog];
+            textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.1f);
+            // monologLineText.text = currentMonolog[currentLineMonolog];
         }
         else if(currentLineMonolog >= currentMonolog.Length)
         {
