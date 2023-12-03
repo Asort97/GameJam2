@@ -48,6 +48,14 @@ public class InputManager : MonoBehaviour
     {
         return playerControls.Player.Jump.triggered;
     }
+    public bool PlayerCrouchThisFrame()
+    {
+        return playerControls.Player.Crouch.IsPressed();
+    }
+    public bool PlayerAction()
+    {
+        return playerControls.Player.Action.triggered;
+    }
     public bool PlayerLeftMouse()
     {
         return playerControls.Player.Mouse0.triggered;
