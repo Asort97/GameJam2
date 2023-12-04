@@ -80,9 +80,9 @@ public class DialogStarter : MonoBehaviour
     {
         itemObject.TakeItem(); // Если надо взять возьмет
         
-        if(monologsLines[prevMonolog].questToCompleteAfter != "")
+        if(monologsLines[currentMonolog].questToCompleteAfter != "")
         {
-            QuestManager.instance.SetCompleteQuest(monologsLines[prevMonolog].questToCompleteAfter);
+            QuestManager.instance.SetCompleteQuest(monologsLines[currentMonolog].questToCompleteAfter);
         }        
         if(monologsLines[currentMonolog].objectOnEnd)
         {
