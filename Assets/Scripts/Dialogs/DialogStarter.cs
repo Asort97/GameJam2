@@ -5,32 +5,64 @@ using System;
 
 public class DialogStarter : MonoBehaviour
 {
-    public static Action<string, string[]> OnOpenMonolog;
-    [SerializeField] private string nameItem;
-    [SerializeField] private string[] monologLines;
-    [SerializeField] private bool canStartAgain = true;
-    private bool alreadyOpen;
-
-    private void Update()
+    [Serializable]
+    public struct MonologsLines
     {
-        if (InputManager.Instance.PlayerAction() && !DialogManager.instance.isOpen)
-        {
-            OpenMonolog();
-        }
+        public string[] lines;
+        public string questToGetAccess;
+        public string questToCompleteAfter;
+    }
+    public static Action<string, string[], DialogStarter> OnOpenMonolog;
+    [SerializeField] private MonologsLines[] monologsLines;
+    [SerializeField] private string nameItem;
+    [SerializeField] private bool canStartAgain = true;
+    private ItemObject itemObject;
+    private bool alreadyOpen;
+    private int currentMonolog;
+    private int prevMonolog;
+    private void Start()
+    {
+        itemObject = GetComponent<ItemObject>();
     }
 
     public void OpenMonolog()
-    {
+    {   
         Debug.Log($"Вызывать при взаимодействии с итемом");
 
-        if (!alreadyOpen)
+        if(!DialogManager.instance.isOpen && currentMonolog != monologsLines.Length)
         {
-            OnOpenMonolog?.Invoke(nameItem, monologLines);
-
-            if (!canStartAgain)
+            if (!alreadyOpen)
             {
-                alreadyOpen = true;
+                if(monologsLines[currentMonolog].questToGetAccess == "")
+                {
+                    prevMonolog = currentMonolog;
+                    OnOpenMonolog?.Invoke(nameItem, monologsLines[currentMonolog].lines, this);  
+                    currentMonolog++;
+                }
+                else
+                {
+                    if(QuestManager.instance.CheckQuestComplete(monologsLines[currentMonolog].questToGetAccess))
+                    {
+                        OnOpenMonolog?.Invoke(nameItem, monologsLines[currentMonolog].lines, this);  
+                        currentMonolog++;
+                    }
+                }
+
+                if (!canStartAgain && currentMonolog == monologsLines.Length)
+                {
+                    alreadyOpen = true;
+                }
             }
+        }
+    }
+
+    public void EndDialog()
+    {
+        itemObject.TakeItem(); // Если надо взять возьмет
+        
+        if(monologsLines[prevMonolog].questToCompleteAfter != "")
+        {
+            QuestManager.instance.SetCompleteQuest(monologsLines[prevMonolog].questToCompleteAfter);
         }
     }
 

@@ -7,11 +7,12 @@ using Unity.VisualScripting;
 public class DialogManager : MonoBehaviour
 {
     public static DialogManager instance;
+    [SerializeField] private PlayerController playerController;
     [SerializeField] private GameObject dialogMenu;
     [SerializeField] private TextWriter textWriter;
     [SerializeField] private TMP_Text monologLineText;
     [SerializeField] private TMP_Text nameText;
-
+    private DialogStarter currentDialogStarter;
     private string currentName;
     private string[] currentMonolog;
     public bool isOpen;
@@ -40,8 +41,9 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-    private void Init(string name, string[] monolog)
+    private void Init(string name, string[] monolog, DialogStarter dialogStarter)
     {
+        currentDialogStarter = dialogStarter;
         currentName = name;
         currentMonolog = monolog;
 
@@ -51,10 +53,12 @@ public class DialogManager : MonoBehaviour
     private void StartDialog()
     {
         isOpen = true;
+        playerController.canMove = false;
+
         dialogMenu.SetActive(true);
 
         nameText.text = currentName;
-        textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.05f);
+        textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.1f);
         // monologLineText.text = currentMonolog[currentLineMonolog];
     }
 
@@ -75,8 +79,13 @@ public class DialogManager : MonoBehaviour
     private void EndDialog()
     {
         isOpen = false;
+        playerController.canMove = true;
+
         dialogMenu.SetActive(false);
 
         currentLineMonolog = 0;
+
+        currentDialogStarter.EndDialog(); 
+
     }
 }

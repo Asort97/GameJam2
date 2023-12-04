@@ -19,7 +19,6 @@ public abstract class Subject : MonoBehaviour
             {
                 Interaction();
             }
-
         };
     }
 }
