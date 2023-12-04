@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.041250892, g: 0.07305416, b: 0.12561989, a: 1}
+  m_IndirectSpecularColor: {r: 0.0412504, g: 0.07305349, b: 0.12561938, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -163,15 +163,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monologsLines:
   - lines:
-    - "\u042F \u0437\u043D\u0430\u044E \u0447\u0442\u043E \u0442\u0435\u0431\u044F
-      \u043F\u043E\u0441\u043B\u0430\u043B\u0430 \u0442\u0440\u0443\u0441\u043B\u0438\u0432\u0430\u044F
-      \u043A\u043D\u0438\u0433\u0430 \u0437\u0430 \u043C\u043D\u043E\u0439"
-    - "\u0434\u0443\u043C\u0430\u0435\u0448\u044C \u044F \u0442\u0435\u0431\u0435
-      \u043F\u043E\u043C\u043E\u0433\u0443 \u0437\u0430 \u043F\u0440\u043E\u0441\u0442\u043E
-      \u0442\u0430\u043A?"
-    - "\u043F\u0440\u0438\u043D\u0435\u0441\u0438 \u043C\u043D\u0435 \u0437\u043E\u043B\u043E\u0442\u043E\u0439
-      \u043A\u043B\u044E\u0447 \u0438 \u0442\u043E\u0433\u0434\u0430 \u044F \u043F\u043E\u043C\u043E\u0433\u0443
-      \u0442\u0435\u0431\u0435"
+    - "\u041F\u0440\u0438\u0432\u0435\u0442 \u043F\u0440\u0438\u0432\u0435\u0442!"
+    - "\u041F\u043E\u043C\u043E\u0449\u044C \u043D\u0443\u0436\u043D\u0430? "
+    - "\u041F\u0440\u043E\u0441\u0442\u0438, \u043D\u043E \u043F\u0443\u0442\u044C
+      \u043A \u043C\u043E\u0435\u043C\u0443 \u0441\u0435\u0440\u0434\u0446\u0443
+      \u0442\u043E\u043B\u044C\u043A\u043E \u043A\u043B\u044E\u0447\u0438\u043A\u043E\u043C
+      \u0437\u043E\u043B\u043E\u0442\u044B\u043C \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F."
+    - "\u042D\u0442\u043E\u0442 \u0443\u0436\u0435 \u0441\u043E\u0432\u0441\u0435\u043C
+      \u043E\u0431\u0435\u0437\u0443\u043C\u0435\u043B, \u0431\u0435\u0437 \u0448\u0430\u043D\u0441\u043E\u0432,
+      \u0438 \u043A\u043B\u044E\u0447 \u043E\u043D \u043D\u0435 \u0432 \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0438
+      \u0434\u043E\u0431\u044B\u0442\u044C."
+    - "\u042F \u0431\u044B\u043B \u0433\u043E\u0442\u043E\u0432 \u0443\u0436\u0435
+      \u0440\u0430\u0437\u0440\u044B\u0434\u0430\u0442\u044C\u0441\u044F, \u043D\u043E
+      \u0442\u044B \u043F\u043E\u044F\u0432\u0438\u043B\u0441\u044F, \u0445\u043E\u0434\u044F\u0449\u0438\u0439. "
     questToGetAccess: 
     questToCompleteAfter: 
     objectOnStart: {fileID: 0}
@@ -181,15 +185,19 @@ MonoBehaviour:
     objectOnEnd1: {fileID: 0}
     objectOnEndEnabled1: 0
   - lines:
-    - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0442\u0435\u043F\u0435\u0440\u044C
-      \u043E\u043D \u0431\u0443\u0434\u0435\u0442 \u0441\u043E \u043C\u043D\u043E\u0439"
-    - "\u041A\u0430\u043A \u0438 \u043E\u0431\u0435\u0449\u0430\u043B \u044F \u043F\u043E\u043C\u043E\u0433\u0443
-      \u0442\u0435\u0431\u0435"
-    - "\u0432\u0442\u043E\u0440\u0430\u044F \u0447\u0430\u0441\u0442\u044C \u0437\u0430\u0433\u0430\u0434\u043A\u0438"
-    - "\"\u0412\u0440\u0435\u043C\u044F \u0442\u0435\u043A\u0443\u0447\u0435, \u043F\u0435\u0441\u043E\u043A
-      \u043C\u0435\u0440\u0446\u0430\u0435\u0442, \u041C\u0438\u043D\u0443\u0442\u044B
-      \u0438\u0441\u0447\u0435\u0437\u0430\u044E\u0442, \u043C\u0433\u043D\u043E\u0432\u0435\u043D\u044C\u044F
-      \u0443\u0445\u043E\u0434\u044F\u0442...\""
+    - "\u041E-\u0445\u043E-\u0445\u043E, \u0437\u043E\u043B\u043E\u0442\u0438\u0441\u0442\u044B\u0439
+      \u0445\u0438\u0442\u0440\u0435\u0446, \u043D\u0430\u043A\u043E\u043D\u0435\u0446-\u0442\u043E
+      \u043C\u043E\u0439"
+    - "\u041D\u0435 \u0447\u0430\u0441\u0442\u043E \u0445\u043E\u0434\u044F\u0449\u0438\u0435
+      \u0443\u043C\u043D\u044B\u0435 \u043F\u043E\u043F\u0430\u0434\u0430\u044E\u0442\u0441\u044F,
+      \u0437\u0430\u0441\u043B\u0443\u0436\u0438\u0432\u0430\u0435\u0448\u044C \u043F\u043E\u043C\u043E\u0449\u0438."
+    - "\u0422\u0435\u0431\u0435 \u043A\u043B\u044E\u0447 \u043D\u0430\u0439\u0442\u0438
+      \u043D\u0430\u0434\u043E \u0438 \u043E\u043D \u0442\u0435\u0431\u0435 \u0440\u0430\u0441\u043A\u0440\u043E\u0435\u0442
+      \u043F\u0443\u0442\u044C \u0442\u0432\u043E\u0439 \u043A \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u044E"
+    - "\u0423\u0439\u0434\u0438 \u0442\u0435\u043F\u0435\u0440\u044C, \u0445\u043E\u0447\u0443
+      \u0441 \u043C\u043E\u0438\u043C \u0437\u043E\u043B\u043E\u0442\u043A\u043E\u043C
+      \u043F\u043E\u0431\u044B\u0442\u044C, \u043F\u0440\u0438\u044F\u0442\u043D\u043E\u0433\u043E
+      \u043C\u043D\u0435 \u0430\u043F\u043F\u0435\u0442\u0438\u0442\u0430."
     questToGetAccess: BringGoldenKey
     questToCompleteAfter: CanTalkWithImage
     objectOnStart: {fileID: 0}
@@ -2018,15 +2026,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monologsLines:
   - lines:
-    - "\u041F\u0440\u0438\u0432\u0435\u0442, \u0437\u0430\u0431\u043B\u0443\u0434\u0448\u0438\u0439"
-    - "\u0422\u044B \u0447\u0442\u043E \u0442\u043E \u0438\u0449\u0435\u0448\u044C?"
-    - "\u042F \u0437\u043D\u0430\u044E \u0447\u0442\u043E \u0442\u0435\u0431\u044F
-      \u043F\u043E\u0441\u043B\u0430\u043B\u0430 \u0437\u0430 \u043C\u043D\u043E\u0439
-      \u043B\u0430\u043C\u043F\u0430, \u044F \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u044E
-      \u0442\u0435\u0431\u0435 \u0431\u0440\u0430\u0442\u044C \u043C\u0435\u043D\u044F. "
-    - "\u041C\u043D\u0435 \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E \u0437\u0434\u0435\u0441\u044C
-      \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E, \u0445\u043E\u0442\u044F
-      \u0431\u044B \u0432 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \u043F\u043E\u0431\u0443\u0434\u0443"
+    - "\u041F\u0440\u043E\u0432\u0430\u043B\u0438\u0432\u0430\u0439, \u0441\u043C\u0435\u0440\u0434,
+      \u043D\u0435 \u0441\u043C\u0435\u0435\u0448\u044C \u0442\u0440\u043E\u0433\u0430\u0442\u044C
+      \u043C\u043E\u0451 \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E\u0435
+      \u043D\u043E\u0432\u043E\u0435 \u0442\u0435\u043B\u043E."
+    - "\u0415\u0441\u043B\u0438 \u0445\u043E\u0447\u0435\u0448\u044C \u0442\u0430\u043A\u043E\u0435
+      \u0436\u0435, \u043F\u0440\u0438\u0434\u0451\u0442\u0441\u044F \u0437\u0430\u0441\u043B\u0443\u0436\u0438\u0442\u044C."
+    - "\u042D\u0439, \u0441\u0442\u043E\u0439 \u0447\u043E \u0434\u0435\u043B\u0430\u0435\u0448\u044C,
+      \u0447\u0435\u0440\u0432\u044C."
     questToGetAccess: 
     questToCompleteAfter: BringGoldenKey
     objectOnStart: {fileID: 0}
@@ -3000,23 +3007,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monologsLines:
   - lines:
-    - "\u041E! \u041F\u0440\u0438\u0432\u0435\u0442"
-    - "\u0425\u043E\u0440\u043E\u0448\u043E \u0447\u0442\u043E \u0442\u044B \u043C\u0435\u043D\u044F
-      \u0437\u0430\u043C\u0435\u0442\u0438\u043B"
-    - "\u0422\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E \u043D\u0430\u0439\u0442\u0438
-      \u043A\u043B\u044E\u0447 \u0447\u0442\u043E\u0431\u044B \u0432\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F
-      \u043E\u0442 \u0441\u044E\u0434\u0430"
-    - "\u041D\u043E \u043A\u043B\u044E\u0447 \u043D\u0435\u0432\u0441\u0435\u0433\u0434\u0430
-      \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u043A\u0430\u043A \u043A\u043B\u044E\u0447"
-    - "\u0423\u0434\u0430\u0447\u0438 \u0441 \u044D\u0442\u0438\u043C, \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439
-      \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435
-      \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B. \u041C\u043E\u0436\u0435\u0442
-      \u0431\u044B\u0442\u044C \u043E\u043D\u0438 \u0447\u0442\u043E \u0442\u043E
-      \u0437\u043D\u0430\u044E\u0442"
-    - "\u041D\u0430\u0447\u043D\u0438 \u0441 \u043A\u043D\u0438\u0436\u043A\u0438
-      \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0441\u043F\u0440\u044F\u0442\u0430\u043B\u0430\u0441\u044C
-      \u043F\u043E\u0434 \u0441\u0442\u043E\u043B\u043E\u043C \u0432 \u044D\u0442\u043E\u0439
-      \u043A\u043E\u043C\u043D\u0430\u0442\u0435"
+    - "\u042D\u0439."
+    - "\u042D\u0439!!!"
+    - "\u0422\u044B \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0448\u044C \u043A\u0430\u043A
+      \u0431\u0443\u0434\u0442\u043E \u0442\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u0430
+      \u043F\u043E\u043C\u043E\u0449\u044C."
+    - "\u041F\u043E\u044D\u0442\u043E\u043C\u0443 \u043F\u043E\u0437\u0432\u043E\u043B\u044E
+      \u0440\u0430\u0441\u043A\u0440\u044B\u0442\u044C \u0441\u0435\u0431\u044F."
+    - "\u0422\u044B \u043D\u0435 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0448\u044C
+      \u044D\u0442\u043E\u043C\u0443 \u043C\u0435\u0441\u0442\u0443."
+    - "\u041D\u043E \u0447\u0442\u043E\u0431\u044B \u043D\u0430\u0439\u0442\u0438
+      \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u0435, \u043F\u0440\u0438\u0434\u0451\u0442\u0441\u044F
+      \u043D\u0430\u0439\u0442\u0438 \u041A\u043B\u044E\u0447, \u0434\u0430\u043B\u044C\u0448\u0435
+      \u0440\u0430\u0437\u0431\u0435\u0440\u0451\u0448\u044C\u0441\u044F."
+    - "\u0421\u043F\u0440\u043E\u0441\u0438 \u0442\u0443 \u043A\u043D\u0438\u0436\u043E\u043D\u043A\u0443
+      \u043F\u043E\u0434 \u0441\u0442\u043E\u043B\u043E\u043C, \u043E\u043D\u0430
+      \u0431\u044B\u043B\u0430 \u0442\u0443\u0442 \u0434\u043E\u043B\u044C\u0448\u0435
+      \u0432\u0441\u0435\u0445."
     questToGetAccess: 
     questToCompleteAfter: 
     objectOnStart: {fileID: 1005802495}
@@ -5060,6 +5067,91 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4579454407841743219, guid: 784bbfc50e7f6bb49bcb9e8daae48323, type: 3}
+--- !u!1 &631708352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
+  m_PrefabInstance: {fileID: 1255682417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &631708355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631708352}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8767979, y: 1.7696245, z: 2.0817118}
+  m_Center: {x: 0.43840158, y: 0.38481194, z: -0.12340714}
+--- !u!114 &631708356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631708352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d588133c5c204aa607b3d3a917ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTake: 0
+  isKey: 0
+  isRealKey: 0
+  isManiak: 0
+--- !u!114 &631708357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631708352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - "\u0412\u0440\u0435\u043C\u044F - \u044D\u0442\u043E \u0441\u0430\u043C\u044B\u0439
+      \u0446\u0435\u043D\u043D\u044B\u0439 \u0434\u0430\u0440, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+      \u043C\u044B \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u043C \u0431\u0435\u0437
+      \u0432\u043E\u0437\u0432\u0440\u0430\u0442\u0430."
+    - "\u0423\u0441\u043F\u0435\u0445 - \u044D\u0442\u043E \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C
+      \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u043E\u0442 \u043D\u0435\u0443\u0434\u0430\u0447\u0438
+      \u043A \u043D\u0435\u0443\u0434\u0430\u0447\u0435 \u0431\u0435\u0437 \u043F\u043E\u0442\u0435\u0440\u0438
+      \u044D\u043D\u0442\u0443\u0437\u0438\u0430\u0437\u043C\u0430."
+    - "\u041D\u0435 \u0431\u043E\u0439\u0441\u044F \u043E\u0448\u0438\u0431\u0430\u0442\u044C\u0441\u044F,
+      \u0431\u043E\u0439\u0441\u044F \u043D\u0435 \u0443\u0447\u0438\u0442\u044C\u0441\u044F."
+    - "\u041B\u044E\u0431\u043E\u0432\u044C - \u044D\u0442\u043E \u043A\u043E\u0433\u0434\u0430
+      \u0442\u044B \u0433\u043E\u0442\u043E\u0432 \u043E\u0442\u0434\u0430\u0442\u044C
+      \u0432\u0441\u0435, \u0434\u0430\u0436\u0435 \u0441\u0432\u043E\u044E \u0436\u0438\u0437\u043D\u044C."
+    - "\u041C\u0435\u0447\u0442\u044B \u0441\u0431\u044B\u0432\u0430\u044E\u0442\u0441\u044F,
+      \u0435\u0441\u043B\u0438 \u0442\u044B \u0432 \u043D\u0438\u0445 \u0432\u0435\u0440\u0438\u0448\u044C."
+    questToGetAccess: 
+    questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
+  nameItem: "\u041A\u0430\u043D\u0434\u0435\u043B\u044F\u0431\u0440"
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
 --- !u!1 &636169519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1374161610312379201, guid: 784bbfc50e7f6bb49bcb9e8daae48323, type: 3}
@@ -8208,40 +8300,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monologsLines:
   - lines:
-    - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E! \u0412\u044B\u0440\u0443\u0447\u0438\u043B"
-    - "\u042F \u043F\u043E\u0434\u0441\u043B\u0443\u0448\u0430\u043B \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E
-      \u0432\u0430\u0448 \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440 \u0441
-      \u043B\u0430\u043C\u043F\u043E\u0439"
-    - "\u0422\u044B \u0445\u043E\u0447\u0435\u0448\u044C \u0432\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F
-      \u043E\u0442 \u0441\u044E\u0434\u0430?"
-    - "\u0414\u0430\u044E \u0442\u043E\u0433\u0434\u0430 \u0435\u0449\u0435 \u043E\u0434\u043D\u0443
-      \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0443"
-    - "\"\u0427\u0442\u043E \u044F \u0442\u0430\u043A\u043E\u0435, \u0437\u0430\u0433\u0430\u0434\u043A\u0430
-      \u043B\u0435\u0433\u043A\u0430\u044F, \u041D\u0435 \u0431\u0443\u0434\u0438\u043B\u044C\u043D\u0438\u043A,
-      \u043D\u043E \u0432\u0440\u0435\u043C\u044F \u043C\u043D\u0435 \u0434\u0430\u043D\u043E....\""
-    - "\u0422\u0435\u043F\u0435\u0440\u044C \u0443 \u0442\u0435\u0431\u044F \u0435\u0441\u0442\u044C
-      \u0432\u0441\u044F \u0437\u0430\u0433\u0430\u0434\u043A\u0430. \u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C
-      \u0440\u0430\u0437\u0433\u0430\u0434\u0430\u0442\u044C \u0447\u0442\u043E \u044D\u0442\u043E
-      \u0437\u0430 \u043F\u0440\u0435\u0434\u043C\u0435\u0442"
-    - "\u041E\u0442\u0432\u0435\u0442\u043E\u043C \u0438 \u0431\u0443\u0434\u0435\u0442
-      \u0442\u0432\u043E\u0439 \u043A\u043B\u044E\u0447"
-    - "\u041F\u043E\u0432\u0442\u043E\u0440\u044F\u044E \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E:"
-    - "\"\u0412\u0440\u0435\u043C\u044F \u0442\u0435\u043A\u0443\u0447\u0435, \u043F\u0435\u0441\u043E\u043A
-      \u043C\u0435\u0440\u0446\u0430\u0435\u0442, \u041C\u0438\u043D\u0443\u0442\u044B
-      \u0438\u0441\u0447\u0435\u0437\u0430\u044E\u0442, \u043C\u0433\u043D\u043E\u0432\u0435\u043D\u044C\u044F
-      \u0443\u0445\u043E\u0434\u044F\u0442. \u041D\u0435 \u0442\u0438\u043A\u0430\u0435\u0442,
-      \u043D\u0435 \u0433\u0440\u0435\u043C\u0438\u0442, \u041D\u043E \u043C\u0435\u0440\u0438\u0442
-      \u0441\u0435\u043A\u0443\u043D\u0434\u044B, \u0441\u043B\u043E\u0432\u043D\u043E
-      \u043C\u0435\u0447\u0442\u0430\u0435\u0442.  \u0427\u0442\u043E \u044F \u0442\u0430\u043A\u043E\u0435,
-      \u0437\u0430\u0433\u0430\u0434\u043A\u0430 \u043B\u0435\u0433\u043A\u0430\u044F,
-      \u041D\u0435 \u0431\u0443\u0434\u0438\u043B\u044C\u043D\u0438\u043A, \u043D\u043E
-      \u0432\u0440\u0435\u043C\u044F \u043C\u043D\u0435 \u0434\u0430\u043D\u043E.
-      \u0418 \u0435\u0441\u043B\u0438 \u0437\u0434\u0435\u0441\u044C \u043E\u0431\u0440\u0430\u0442\u0438\u0448\u044C
-      \u0432\u0437\u0433\u043B\u044F\u0434 \u0441\u0432\u043E\u0439, \u0422\u044B
-      \u043D\u0430\u0439\u0434\u0435\u0448\u044C \u043E\u0442\u0432\u0435\u0442 -
-      \u043A\u0442\u043E \u044F \u0442\u0430\u043A\u043E\u0439?\""
+    - ........
+    - ........
+    - "\u0421\u043F\u0430\u043B\u0438\u043B\u0441\u044F \u044F, \u0434\u0430?"
+    - "\u0422\u043E\u043A\u043E \u043D\u0435 \u0441\u0434\u0430\u0432\u0430\u0439
+      \u043C\u0435\u043D\u044F, \u0447\u0435\u043B, \u044F \u043F\u0440\u043E\u0441\u0442\u043E
+      \u043F\u043E\u043A\u0435\u043C\u0430\u0440\u0438\u0442\u044C \u0445\u043E\u0442\u0435\u043B
+      \u0440\u0430\u0437 \u0443\u0436 \u0442\u0430\u043A \u0432\u0441\u0451 \u0432\u044B\u0432\u0435\u0440\u043D\u0443\u043B\u043E\u0441\u044C."
+    - "\u0422\u0443\u0442 \u0433\u0434\u0435-\u0442\u043E \u0447\u0443\u0432\u0430\u043A
+      \u0445\u043E\u0434\u0438\u043B, \u0442\u043E\u0436\u0435 \u0442\u0438\u043F\u0430
+      \u0445\u043E\u0434\u0443\u043D, \u0438\u043B\u0438 \u043A\u0430\u043A \u043E\u043D\u0438
+      \u0438\u0445 \u043D\u0430\u0437\u044B\u0432\u0430\u044E\u0442..."
+    - "\u0422\u043E\u043A\u043E \u043E\u043D \u0443\u0436\u0435 \u0447\u0430\u0441\u044B
+      \u043F\u043E\u0447\u0442\u0438, \u043D\u0435 \u0437\u043D\u0430\u043B \u043F\u043E\u0434\u0438,
+      \u0447\u0442\u043E \u043F\u043E\u043A\u043E\u0435\u043D\u043D\u0438\u043A\u0438 
+      \u0442\u0443\u0442 \u0434\u043E\u043B\u0433\u043E \u043D\u0435 \u0436\u0438\u0432\u0443\u0442,
+      \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E \u0432 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0438,
+      \u0436\u0438\u0437\u043D\u044C \u0441\u043A\u043E\u0440\u043E\u0442\u0435\u0447\u043D\u0430,
+      \u043A\u043E\u0440\u043E\u0447\u0435 \u0442\u044B \u043F\u043E\u043D\u044F\u043B."
+    - "\u041E\u043D, \u043A\u0441\u0442\u0430\u0442\u0438, \u043A\u0443\u0434\u0430-\u0442\u043E
+      \u0432\u0430\u0449\u0435 \u0432 \u043A\u043E\u043D\u0435\u0446 \u0434\u043E\u043C\u0430
+      \u0437\u0430\u0431\u0438\u043B\u0441\u044F, \u043F\u043E\u0440\u044B\u0441\u043A\u0430\u0439
+      \u0442\u0430\u043C, \u043D\u043E \u0447\u0435\u043B \u043E\u043D \u0436\u0443\u0442\u043A\u0438\u0439,
+      \u043C\u043E\u043B\u0438\u0441\u044C, \u0447\u0442\u043E\u0431 \u043D\u0435
+      \u043F\u043E\u043B\u043E\u043C\u0430\u043B \u0442\u0435\u0431\u044F. "
     questToGetAccess: CanTalkWithImage
-    questToCompleteAfter: 
+    questToCompleteAfter: CanTalkWithClock
     objectOnStart: {fileID: 0}
     objectOnStartEnabled: 0
     objectOnEnd: {fileID: 0}
@@ -8725,6 +8809,96 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 7ce32970730cbfb468ae7078d8be8b5a, type: 3}
+--- !u!1 &985448828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+  m_PrefabInstance: {fileID: 1068539756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &985448829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985448828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.590509, y: 4.3321776, z: 4.6937113}
+  m_Center: {x: 2.4418037, y: 1.2443411, z: -1.8468561}
+--- !u!114 &985448830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985448828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d588133c5c204aa607b3d3a917ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTake: 0
+  isKey: 0
+  isRealKey: 0
+  isManiak: 0
+--- !u!114 &985448831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985448828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - "\u0417\u0430 \u0447\u0442\u043E..."
+    - "\u041D\u0435 \u0445\u043E\u0447\u0443 \u0443\u043C\u0438\u0440\u0430\u0442\u044C..."
+    - "\u0412\u0435\u0440\u043D\u0438\u0442\u0435 \u043C\u0435\u043D\u044F \u043D\u0430\u0437\u0430\u0434,
+      \u044F \u0438\u0441\u043F\u0440\u0430\u0432\u043B\u044E..."
+    - ...
+    - "\u0410?"
+    - "\u041E\u0445, \u0434\u0430, \u043F\u0440\u0438\u0432\u0435\u0442, \u0441\u043F\u0430\u0441\u0442\u0438\u0441\u044C
+      \u0442\u043E\u0436\u0435 \u043F\u0440\u0438\u0448\u0451\u043B?"
+    - "\u041D\u0443, \u043E\u0442 \u043C\u0435\u043D\u044F \u043F\u043E\u043C\u043E\u0449\u0438
+      \u043D\u0435 \u0436\u0434\u0438, \u044F \u043B\u0443\u0447\u0448\u0435 \u0442\u0443\u0442
+      \u043F\u043E\u0441\u0438\u0436\u0443"
+    - "\u041C\u0430\u043A\u0441\u0438\u043C\u0443\u043C, \u0447\u0442\u043E \u043C\u043E\u0433\u0443
+      \u0441\u043A\u0430\u0437\u0430\u0442\u044C, \u0442\u0430\u043C \u0432 \u0441\u043E\u0441\u0435\u0434\u043D\u0435\u0439
+      \u043A\u043E\u043C\u043D\u0430\u0442\u0435, \u0431\u0443\u043A\u0432\u0430\u043B\u044C\u043D\u043E
+      \u043A\u0440\u043E\u0432\u0430\u0442\u044C \u0441\u0442\u043E\u0438\u0442,
+      \u0442\u0443\u043F\u043E\u0439 \u043F\u043E\u043A\u043E\u0435\u043D\u043D\u0438\u043A,
+      \u043F\u043E\u0432\u0435\u0437\u043B\u043E \u0441 \u0444\u043E\u0440\u043C\u043E\u0439,
+      \u0441\u043C\u043E\u0433 \u0437\u0430\u043C\u0430\u0441\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+      \u043F\u043E\u0434 \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E\u0433\u043E."
+    - "\u041E\u0441\u0442\u0430\u0432\u044C \u043C\u0435\u043D\u044F."
+    questToGetAccess: CanTalkWithClock
+    questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
+  nameItem: 
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
 --- !u!1001 &990725136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9569,6 +9743,153 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4877366222351349938, guid: 784bbfc50e7f6bb49bcb9e8daae48323, type: 3}
+--- !u!1001 &1068539756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3050141
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6722085885383957590, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5359559182610245850, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0097
+      objectReference: {fileID: 0}
+    - target: {fileID: -5359559182610245850, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0051
+      objectReference: {fileID: 0}
+    - target: {fileID: -5359559182610245850, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0062
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.44
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_Name
+      value: CHASbl
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0406
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0405
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0009638668
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0045905714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20487364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.97877717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -23.643
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.587
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831546642207173747, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180.236
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 985448831}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 985448830}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 985448829}
+  m_SourcePrefab: {fileID: 100100000, guid: cde3a695730258f408cbe7f432ff5cd1, type: 3}
 --- !u!1001 &1078643625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10970,7 +11291,16 @@ PrefabInstance:
     - {fileID: -8700617353114198275, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
     - {fileID: 65702495048144492, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631708356}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631708355}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631708357}
   m_SourcePrefab: {fileID: 100100000, guid: 9df3a9cc7f0740d4790262cad38dfc4c, type: 3}
 --- !u!1001 &1258937570
 PrefabInstance:
@@ -12397,27 +12727,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monologsLines:
   - lines:
-    - "\u0447\u0442\u043E \u043D\u0443\u0436\u043D\u043E?! \u041D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C
-      \u0447\u0442\u043E\u043B\u0438, \u044F \u043F\u044B\u0442\u0430\u044E\u0441\u044C
-      \u0441\u043F\u0440\u044F\u0442\u0430\u0442\u044C\u0441\u044F"
-    - "\u0410 \u043F\u043E\u0434\u043E\u0436\u0434\u0438, \u0442\u044B \u043F\u044B\u0442\u0430\u0435\u0448\u044C\u0441\u044F
-      \u0432\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F \u043E\u0442 \u0441\u044E\u0434\u0430? "
-    - "\u041C\u043D\u043E\u0433\u043E \u043A\u0442\u043E \u043F\u044B\u0442\u0430\u043B\u0441\u044F,
-      \u043D\u043E \u043D\u0438\u043A\u043E\u043C\u0443 \u0442\u0430\u043A \u0438
-      \u043D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0441\u0431\u0435\u0436\u0430\u0442\u044C
-      \u043E\u0442 \u0441\u044E\u0434\u0430."
+    - "\u0427\u0442\u043E \u043D\u0443\u0436\u043D\u043E?! \u041D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C,
+      \u044F \u043F\u044B\u0442\u0430\u044E\u0441\u044C \u0441\u043F\u0440\u044F\u0442\u0430\u0442\u044C\u0441\u044F."
+    - "\u0410..."
+    - "\u041F\u043E\u0434\u043E\u0436\u0434\u0438..."
+    - "\u0422\u044B \u043F\u044B\u0442\u0430\u0435\u0448\u044C\u0441\u044F \u0432\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+      \u043E\u0442\u0441\u044E\u0434\u0430? "
+    - "\u041C\u043D\u043E\u0433\u043E \u043A\u0442\u043E \u043F\u044B\u0442\u0430\u043B\u0441\u044F."
+    - "\u041D\u0438\u043A\u043E\u043C\u0443 \u0442\u0430\u043A \u0438 \u043D\u0435
+      \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0432\u044B\u0439\u0442\u0438."
     - "\u041D\u043E \u044F \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u044E
       \u0442\u0435\u0431\u044F \u043A\u0443\u0441\u043A\u043E\u043C \u0437\u0430\u0433\u0430\u0434\u043A\u0438,
-      \u043E\u0442\u0432\u0435\u0442\u043E\u043C \u043A\u043E\u0442\u043E\u0440\u044B\u0439
-      \u0431\u0443\u0434\u0435\u0442 \u043F\u0440\u0435\u0434\u043C\u0435\u0442"
-    - "\"\u0427\u0442\u043E \u044F \u0437\u0430 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A,
-      \u0442\u0430\u044F\u0449\u0438\u0439 \u0432 \u0441\u0435\u0431\u0435, \u0421\u0432\u043E\u0439
-      \u0441\u0432\u0435\u0442 \u0438 \u0441\u0432\u043E\u044E \u0431\u043E\u043B\u044C,
-      \u0432 \u044D\u0442\u043E\u0439 \u0442\u0435\u0441\u043D\u043E\u0439 \u043A\u043E\u043C\u043D\u0430\u0442\u0435?
-      \""
+      \u043E\u0442\u0432\u0435\u0442\u043E\u043C \u043A\u043E\u0442\u043E\u0440\u043E\u0439
+      \u0431\u0443\u0434\u0435\u0442 \u043F\u0440\u0435\u0434\u043C\u0435\u0442."
+    - "\u0421\u043B\u0443\u0448\u0430\u0439 \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E!"
+    - "\"\u0427\u0442\u043E \u044F \u0442\u0430\u043A\u043E\u0435, \u0442\u0430\u044F\u0449\u0435\u0435
+      \u0432 \u0441\u0435\u0431\u0435, \u0441\u0432\u043E\u0439 \u0441\u0432\u0435\u0442
+      \u0438 \u0441\u0432\u043E\u044E \u0431\u043E\u043B\u044C, \u0432 \u044D\u0442\u043E\u0439
+      \u0442\u0435\u0441\u043D\u043E\u0439 \u043A\u043E\u043C\u043D\u0430\u0442\u0435?\""
     - "\u0421\u043E\u0432\u0435\u0442\u0443\u044E \u043F\u043E\u0445\u043E\u0434\u0438\u0442\u044C
-      \u043F\u043E \u043A\u043E\u043C\u043D\u0430\u0442\u0430\u043C \u0447\u0442\u043E\u0431\u044B
-      \u043E\u0442\u0432\u0435\u0442\u0438\u0442\u044C \u043D\u0430 \u043D\u0435\u0435"
+      \u043F\u043E \u043A\u043E\u043C\u043D\u0430\u0442\u0430\u043C, \u0447\u0442\u043E\u0431\u044B
+      \u043D\u0430\u0439\u0442\u0438 \u043E\u0442\u0432\u0435\u0442."
     questToGetAccess: 
     questToCompleteAfter: 
     objectOnStart: {fileID: 0}
@@ -13500,11 +13830,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5330afed0515d364fb88e8188f6254af, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -16318,8 +16648,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questsList:
   - questName: BringGoldenKey
-    isCompleted: 1
+    isCompleted: 0
   - questName: CanTalkWithImage
+    isCompleted: 0
+  - questName: CanTalkWithClock
     isCompleted: 0
 --- !u!1001 &1948405562
 PrefabInstance:
@@ -17990,3 +18322,4 @@ SceneRoots:
   - {fileID: 46138467}
   - {fileID: 1005802498}
   - {fileID: 1907727473}
+  - {fileID: 1068539756}

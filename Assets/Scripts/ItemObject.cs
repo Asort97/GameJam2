@@ -10,7 +10,6 @@ public class ItemObject : MonoBehaviour
     [SerializeField] private bool isKey;
     [SerializeField] private bool isRealKey;
     [SerializeField] private bool isManiak;
-
     private DialogStarter dialogStarter;
 
     private void Start()
@@ -20,7 +19,11 @@ public class ItemObject : MonoBehaviour
 
     public void Interaction()
     {
-        dialogStarter.OpenMonolog();
+        
+        
+            dialogStarter.OpenMonolog();
+        
+        
     }
 
     public void TakeItem()
