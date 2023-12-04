@@ -13,21 +13,21 @@ public class DialogStarter : MonoBehaviour
 
     private void Update()
     {
-        if(InputManager.Instance.PlayerAction() && !DialogManager.instance.isOpen)
+        if (InputManager.Instance.PlayerAction() && !DialogManager.instance.isOpen)
         {
             OpenMonolog();
         }
     }
-    
+
     public void OpenMonolog()
     {
         Debug.Log($"Вызывать при взаимодействии с итемом");
 
-        if(!alreadyOpen)
+        if (!alreadyOpen)
         {
             OnOpenMonolog?.Invoke(nameItem, monologLines);
-            
-            if(!canStartAgain)
+
+            if (!canStartAgain)
             {
                 alreadyOpen = true;
             }

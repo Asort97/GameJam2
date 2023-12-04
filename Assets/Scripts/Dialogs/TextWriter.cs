@@ -23,7 +23,7 @@ public class TextWriter : MonoBehaviour
         if (characterIndex < textToWrite.Length)
         {
             timer -= Time.deltaTime;
-            if(timer <= 0f)
+            if (timer <= 0f)
             {
                 timer += timerPerCharacter;
                 characterIndex++;

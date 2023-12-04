@@ -11,7 +11,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private TextWriter textWriter;
     [SerializeField] private TMP_Text monologLineText;
     [SerializeField] private TMP_Text nameText;
-    
+
     private string currentName;
     private string[] currentMonolog;
     public bool isOpen;
@@ -34,7 +34,7 @@ public class DialogManager : MonoBehaviour
 
     private void Update()
     {
-        if(isOpen)
+        if (isOpen)
         {
             NextLine();
         }
@@ -60,13 +60,13 @@ public class DialogManager : MonoBehaviour
 
     private void NextLine()
     {
-        if(InputManager.Instance.PlayerLeftMouse() && currentLineMonolog < currentMonolog.Length)
+        if (InputManager.Instance.PlayerLeftMouse() && currentLineMonolog < currentMonolog.Length)
         {
             currentLineMonolog++;
             textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.1f);
             // monologLineText.text = currentMonolog[currentLineMonolog];
         }
-        else if(currentLineMonolog >= currentMonolog.Length)
+        else if (currentLineMonolog >= currentMonolog.Length)
         {
             EndDialog();
         }
