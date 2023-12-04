@@ -58,7 +58,7 @@ public class DialogManager : MonoBehaviour
         dialogMenu.SetActive(true);
 
         nameText.text = currentName;
-        textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.1f);
+        textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.03f);
         // monologLineText.text = currentMonolog[currentLineMonolog];
     }
 
@@ -67,7 +67,7 @@ public class DialogManager : MonoBehaviour
         if (InputManager.Instance.PlayerLeftMouse() && currentLineMonolog < currentMonolog.Length)
         {
             currentLineMonolog++;
-            textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.1f);
+            textWriter.AddWriter(currentMonolog[currentLineMonolog], 0.03f);
             // monologLineText.text = currentMonolog[currentLineMonolog];
         }
         else if (currentLineMonolog >= currentMonolog.Length)
@@ -78,6 +78,9 @@ public class DialogManager : MonoBehaviour
 
     private void EndDialog()
     {
+        monologLineText.text = "";
+        nameText.text = "";
+        
         isOpen = false;
         playerController.canMove = true;
 
