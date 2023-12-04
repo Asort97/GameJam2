@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private float actionDistance;
     [SerializeField] private Camera mainCamera;
     [SerializeField] private float speed;
     [SerializeField] private float forceJump;
@@ -24,25 +25,31 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private InputManager inputManager;
 
+    public bool canMove = true;
+
     private void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-
-        startPosCamera = cameraHolder.position;
-
+        inputManager = InputManager.Instance;
+        
         rb = GetComponent<Rigidbody>();
         capsuleCollider = GetComponent<CapsuleCollider>();
-
-        inputManager = InputManager.Instance;
+        
+        startHeightCollider = capsuleCollider.height;
+        startPosCamera = cameraHolder.localPosition;
     }
 
     private void Update()
     {
-        RotateGunHandler();
-        Jump();
-        Crouch();
-        Movement();
+        if(canMove)
+        {
+            RotateGunHandler();
+            // Jump();
+            // Crouch();
+            Movement();
+            Interact();            
+        }
     }
 
     private void Movement()
@@ -79,6 +86,26 @@ public class PlayerController : MonoBehaviour
             {
                 rb.AddForce(Vector3.up * forceJump, ForceMode.Impulse);
             }
+        }
+    }
+
+    private void Interact()
+    {
+        if(inputManager.PlayerAction())
+        {
+            RaycastHit hitInfo;
+
+            Vector3 pos = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
+            Vector3 direction = Camera.main.transform.TransformDirection(Vector3.forward);
+
+            if (Physics.Raycast(pos, direction, out hitInfo, actionDistance))
+            {
+                if(hitInfo.transform.TryGetComponent<ItemObject>(out ItemObject itemObject))
+                {
+                    itemObject.Interaction();
+                }
+            }
+            InputManager.Instance.PlayerAction();            
         }
     }
 

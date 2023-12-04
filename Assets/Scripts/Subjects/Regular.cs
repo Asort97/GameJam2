@@ -32,8 +32,6 @@ public class Regular : Subject
     private void Update()
     {
         base.RayDraw();
-        
-            
     }
 
 }
