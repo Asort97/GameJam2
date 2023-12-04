@@ -174,6 +174,12 @@ MonoBehaviour:
       \u0442\u0435\u0431\u0435"
     questToGetAccess: 
     questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
   - lines:
     - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0442\u0435\u043F\u0435\u0440\u044C
       \u043E\u043D \u0431\u0443\u0434\u0435\u0442 \u0441\u043E \u043C\u043D\u043E\u0439"
@@ -187,6 +193,12 @@ MonoBehaviour:
     - 
     questToGetAccess: BringGoldenKey
     questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 1907727470}
+    objectOnEndEnabled: 1
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
   nameItem: 
   canStartAgain: 1
   objectOnStart: {fileID: 0}
@@ -2018,6 +2030,12 @@ MonoBehaviour:
       \u0431\u044B \u0432 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \u043F\u043E\u0431\u0443\u0434\u0443"
     questToGetAccess: 
     questToCompleteAfter: BringGoldenKey
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
   nameItem: "\u0417\u043E\u043B\u043E\u0442\u043E\u0439 \u043A\u043B\u044E\u0447"
   canStartAgain: 1
   objectOnStart: {fileID: 0}
@@ -3002,6 +3020,12 @@ MonoBehaviour:
       \u043A\u043E\u043C\u043D\u0430\u0442\u0435"
     questToGetAccess: 
     questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
   nameItem: "\u0422\u0435\u043B\u0435\u0444\u043E\u043D"
   canStartAgain: 1
   objectOnStart: {fileID: 682969919}
@@ -6366,8 +6390,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b06e89fe4b7358c42832f8f1935e46f0, type: 2}
+  m_sharedMaterial: {fileID: 6163002688324948196, guid: b06e89fe4b7358c42832f8f1935e46f0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8171,6 +8195,61 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
+--- !u!114 &959883677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959883671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E! \u0412\u044B\u0440\u0443\u0447\u0438\u043B"
+    - "\u042F \u043F\u043E\u0434\u0441\u043B\u0443\u0448\u0430\u043B \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E
+      \u0432\u0430\u0448 \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440 \u0441
+      \u043B\u0430\u043C\u043F\u043E\u0439"
+    - "\u0422\u044B \u0445\u043E\u0447\u0435\u0448\u044C \u0432\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+      \u043E\u0442 \u0441\u044E\u0434\u0430?"
+    - "\u0414\u0430\u044E \u0442\u043E\u0433\u0434\u0430 \u0435\u0449\u0435 \u043E\u0434\u043D\u0443
+      \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0443"
+    - "\"\u0427\u0442\u043E \u044F \u0442\u0430\u043A\u043E\u0435, \u0437\u0430\u0433\u0430\u0434\u043A\u0430
+      \u043B\u0435\u0433\u043A\u0430\u044F, \u041D\u0435 \u0431\u0443\u0434\u0438\u043B\u044C\u043D\u0438\u043A,
+      \u043D\u043E \u0432\u0440\u0435\u043C\u044F \u043C\u043D\u0435 \u0434\u0430\u043D\u043E....\""
+    questToGetAccess: 
+    questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
+  nameItem: 
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
+--- !u!114 &959883678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959883671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d588133c5c204aa607b3d3a917ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTake: 0
+  isKey: 0
+  isRealKey: 0
+  isManiak: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8259,7 +8338,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.57, y: 2.4759998, z: -28.741999}
+  m_LocalPosition: {x: -26.01, y: 2.4759998, z: -22.842}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8838,8 +8917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63eb1bb683208194191b1bbf20aa5cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableObject: {fileID: 682969919}
-  setEnable: 1
+  objectsToEnable:
+  - obj: {fileID: 682969919}
+    toEnable: 1
   questToComplete: 
   canTriggerAgain: 0
 --- !u!4 &1005802498
@@ -9967,10 +10047,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '#big big big text'
+  m_text: "\u0410\u0410\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 129e3406594190a428a2cff5cbe0b07b, type: 2}
+  m_sharedMaterial: {fileID: -6347433976307910848, guid: 129e3406594190a428a2cff5cbe0b07b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12320,6 +12400,12 @@ MonoBehaviour:
       \u043E\u0442\u0432\u0435\u0442\u0438\u0442\u044C \u043D\u0430 \u043D\u0435\u0435"
     questToGetAccess: 
     questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
   nameItem: "\u041A\u043D\u0438\u0433\u0430"
   canStartAgain: 1
   objectOnStart: {fileID: 0}
@@ -12552,6 +12638,8 @@ GameObject:
   - component: {fileID: 1459100131}
   - component: {fileID: 1459100130}
   - component: {fileID: 1459100129}
+  - component: {fileID: 1459100134}
+  - component: {fileID: 1459100133}
   m_Layer: 0
   m_Name: CubeRB
   m_TagString: Untagged
@@ -12597,7 +12685,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -12674,6 +12762,57 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459100127}
   m_Mesh: {fileID: -5495902117074765545, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
+--- !u!114 &1459100133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459100127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - "\u041E\u0439 \u0438\u0437\u0432\u0438\u043D\u0438 \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+      \u043D\u0435\u043B\u043E\u0432\u043A\u043E \u0432\u044B\u0448\u043B\u043E"
+    - "\u041F\u0440\u043E\u0441\u0442\u043E \u0433\u0432\u043E\u0437\u0434\u0438
+      \u043D\u0430 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u044F \u0434\u0435\u0440\u0436\u0443\u0441\u044C
+      \u0434\u0430\u0432\u043D\u043E \u0437\u0430\u0440\u0436\u0430\u0432\u0435\u043B\u0438"
+    - "\u0421\u043C\u043E\u0436\u0435\u0448\u044C \u043F\u043E\u0434\u043D\u044F\u0442\u044C
+      \u043C\u0435\u043D\u044F ?"
+    questToGetAccess: 
+    questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 959883671}
+    objectOnEndEnabled: 1
+    objectOnEnd1: {fileID: 1459100127}
+    objectOnEndEnabled1: 0
+  nameItem: 
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
+--- !u!114 &1459100134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459100127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d588133c5c204aa607b3d3a917ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTake: 0
+  isKey: 0
+  isRealKey: 0
+  isManiak: 0
 --- !u!1001 &1465405820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14235,6 +14374,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 959883676}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 959883678}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 959883677}
   m_SourcePrefab: {fileID: 100100000, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
 --- !u!1001 &1696677634
 PrefabInstance:
@@ -14422,7 +14567,7 @@ Transform:
   m_GameObject: {fileID: 1704941287}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.57, y: 1.78, z: -28.72}
+  m_LocalPosition: {x: -26.01, y: 1.78, z: -22.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15769,7 +15914,7 @@ Transform:
   m_GameObject: {fileID: 1891279463}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.57, y: 2.4759998, z: -28.741999}
+  m_LocalPosition: {x: -26.01, y: 2.4759998, z: -22.842}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15788,6 +15933,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 729aad4491e915a41bda2b8325cf757a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1907727470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907727473}
+  - component: {fileID: 1907727472}
+  - component: {fileID: 1907727471}
+  m_Layer: 0
+  m_Name: TRIGGER (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1907727471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907727470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.216814, y: 1.4645915, z: 2.2734299}
+  m_Center: {x: 0.10840702, y: -0.23229575, z: -0.15605736}
+--- !u!114 &1907727472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907727470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb1bb683208194191b1bbf20aa5cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToEnable:
+  - obj: {fileID: 959883671}
+    toEnable: 0
+  - obj: {fileID: 1459100127}
+    toEnable: 1
+  questToComplete: 
+  canTriggerAgain: 0
+--- !u!4 &1907727473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907727470}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.39, y: 0.971, z: -22.696}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1913185083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16080,7 +16298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questsList:
   - questName: BringGoldenKey
-    isCompleted: 0
+    isCompleted: 1
 --- !u!1001 &1948405562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17749,3 +17967,4 @@ SceneRoots:
   - {fileID: 347633048}
   - {fileID: 46138467}
   - {fileID: 1005802498}
+  - {fileID: 1907727473}

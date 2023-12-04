@@ -16,6 +16,8 @@ public class DialogStarter : MonoBehaviour
         public bool objectOnStartEnabled;
         public GameObject objectOnEnd;
         public bool objectOnEndEnabled;
+        public GameObject objectOnEnd1;
+        public bool objectOnEndEnabled1;
     }
     public static Action<string, string[], DialogStarter> OnOpenMonolog;
     [SerializeField] private MonologsLines[] monologsLines;
@@ -82,9 +84,13 @@ public class DialogStarter : MonoBehaviour
         {
             QuestManager.instance.SetCompleteQuest(monologsLines[prevMonolog].questToCompleteAfter);
         }        
-        if(monologsLines[prevMonolog].objectOnEnd)
+        if(monologsLines[currentMonolog].objectOnEnd)
         {
-            monologsLines[prevMonolog].objectOnEnd.SetActive(monologsLines[prevMonolog].objectOnEndEnabled);
+            monologsLines[currentMonolog].objectOnEnd.SetActive(monologsLines[currentMonolog].objectOnEndEnabled);
+        }
+        if(monologsLines[currentMonolog].objectOnEnd1)
+        {
+            monologsLines[currentMonolog].objectOnEnd1.SetActive(monologsLines[currentMonolog].objectOnEndEnabled1);
         }
     }
 
