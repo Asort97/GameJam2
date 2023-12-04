@@ -53,14 +53,14 @@ public class DialogStarter : MonoBehaviour
                 {
                     prevMonolog = currentMonolog;
                     OnOpenMonolog?.Invoke(nameItem, monologsLines[currentMonolog].lines, this);  
-                    currentMonolog++;
+                    //currentMonolog++;
                 }
                 else
                 {
                     if(QuestManager.instance.CheckQuestComplete(monologsLines[currentMonolog].questToGetAccess))
                     {
                         OnOpenMonolog?.Invoke(nameItem, monologsLines[currentMonolog].lines, this);  
-                        currentMonolog++;
+                        //currentMonolog++;
                     }
                 }
                 if(currentMonolog == monologsLines.Length)
@@ -92,6 +92,7 @@ public class DialogStarter : MonoBehaviour
         {
             monologsLines[currentMonolog].objectOnEnd1.SetActive(monologsLines[currentMonolog].objectOnEndEnabled1);
         }
+        currentMonolog++;
     }
 
 }
