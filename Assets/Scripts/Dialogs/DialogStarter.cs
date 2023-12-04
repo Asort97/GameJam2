@@ -11,6 +11,11 @@ public class DialogStarter : MonoBehaviour
         public string[] lines;
         public string questToGetAccess;
         public string questToCompleteAfter;
+
+        public GameObject objectOnStart;
+        public bool objectOnStartEnabled;
+        public GameObject objectOnEnd;
+        public bool objectOnEndEnabled;
     }
     public static Action<string, string[], DialogStarter> OnOpenMonolog;
     [SerializeField] private MonologsLines[] monologsLines;
@@ -37,9 +42,9 @@ public class DialogStarter : MonoBehaviour
         {
             if (!alreadyOpen)
             {
-                if(objectOnStart)
+                if(monologsLines[currentMonolog].objectOnStart)
                 {
-                    objectOnStart.SetActive(objectOnStartEnabled);
+                    objectOnStart.SetActive(monologsLines[currentMonolog].objectOnStartEnabled);
                 }
 
                 if(monologsLines[currentMonolog].questToGetAccess == "")
@@ -77,9 +82,9 @@ public class DialogStarter : MonoBehaviour
         {
             QuestManager.instance.SetCompleteQuest(monologsLines[prevMonolog].questToCompleteAfter);
         }        
-        if(objectOnEnd)
+        if(monologsLines[prevMonolog].objectOnEnd)
         {
-            objectOnEnd.SetActive(objectOnEndEnabled);
+            monologsLines[prevMonolog].objectOnEnd.SetActive(monologsLines[prevMonolog].objectOnEndEnabled);
         }
     }
 
