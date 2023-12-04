@@ -37,6 +37,7 @@ public class QuestManager : MonoBehaviour
     
     public void SetCompleteQuest(string quest)
     {
+        Debug.Log(quest);
         foreach (Quests item in questsList)
         {
             if (item.questName == quest)

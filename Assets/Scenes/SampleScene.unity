@@ -2689,7 +2689,7 @@ Transform:
   m_GameObject: {fileID: 347633044}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -66.53, y: 4.07, z: 3.31}
+  m_LocalPosition: {x: -18.4, y: 4.07, z: 3.31}
   m_LocalScale: {x: 50.04, y: 0.15, z: 81.77022}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2852,6 +2852,142 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b83c9d98b17fe2941bba750739dbc8da, type: 3}
+--- !u!1 &414787773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
+  m_PrefabInstance: {fileID: 2007788484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &414787777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414787773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d588133c5c204aa607b3d3a917ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTake: 0
+  isKey: 0
+  isRealKey: 0
+  isManiak: 0
+--- !u!114 &414787778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414787773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - "\u041F\u043E\u0441\u043B\u0443\u0448\u0430\u0439 \u0441\u043A\u0430\u0437\u043A\u0443!"
+    - "\u0416\u0438\u043B-\u0431\u044B\u043B \u043C\u0430\u043B\u044C\u0447\u0438\u043A
+      \u043F\u043E \u0438\u043C\u0435\u043D\u0438 \u0422\u0438\u043C. \u041E\u043D
+      \u0432\u0441\u0435\u0433\u0434\u0430 \u043C\u0435\u0447\u0442\u0430\u043B \u043E
+      \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F\u0445 \u0438
+      \u0442\u0430\u0439\u043D\u044B\u0445 \u043C\u0435\u0441\u0442\u0430\u0445,
+      \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0436\u043D\u043E \u0431\u044B\u043B\u043E
+      \u0431\u044B \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C."
+    - "\u041E\u0434\u043D\u0430\u0436\u0434\u044B \u043B\u0435\u0442\u043D\u0438\u043C
+      \u0434\u043D\u0435\u043C, \u043A\u043E\u0433\u0434\u0430 \u043E\u043D \u0433\u0443\u043B\u044F\u043B
+      \u0432 \u043B\u0435\u0441\u0443, \u0432\u043D\u0435\u0437\u0430\u043F\u043D\u043E
+      \u043F\u043E\u0434\u043D\u044F\u043B\u0441\u044F \u0433\u0443\u0441\u0442\u043E\u0439
+      \u0442\u0443\u043C\u0430\u043D."
+    - "\u0422\u0438\u043C \u043D\u0435 \u043C\u043E\u0433 \u0432\u0438\u0434\u0435\u0442\u044C
+      \u043D\u0438\u0447\u0435\u0433\u043E \u043F\u0435\u0440\u0435\u0434 \u0441\u043E\u0431\u043E\u0439,
+      \u0438 \u0432\u0434\u0440\u0443\u0433 \u0443\u0441\u043B\u044B\u0448\u0430\u043B
+      \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0439 \u0448\u0435\u043F\u043E\u0442. "
+    - "\u041E\u043D \u0440\u0435\u0448\u0438\u043B \u0438\u0434\u0442\u0438 \u043D\u0430
+      \u0437\u0432\u0443\u043A \u0438 \u0432\u0441\u043A\u043E\u0440\u0435 \u0443\u0432\u0438\u0434\u0435\u043B
+      \u043F\u0435\u0440\u0435\u0434 \u0441\u043E\u0431\u043E\u0439 \u0434\u0432\u0435\u0440\u044C
+      \u0432 \u0441\u0442\u0435\u043D\u0435 \u0442\u0443\u043C\u0430\u043D\u0430.
+      \u041D\u0435\u0434\u043E\u043B\u0433\u043E \u0434\u0443\u043C\u0430\u044F,
+      \u043E\u043D \u043E\u0442\u043A\u0440\u044B\u043B \u0435\u0451 \u0438 \u0432\u043E\u0448\u0435\u043B
+      \u0432\u043D\u0443\u0442\u0440\u044C."
+    - "\u041E\u043A\u0430\u0437\u0430\u0432\u0448\u0438\u0441\u044C \u043D\u0430
+      \u0434\u0440\u0443\u0433\u043E\u0439 \u0441\u0442\u043E\u0440\u043E\u043D\u0435,
+      \u0422\u0438\u043C \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B \u0441\u0435\u0431\u044F
+      \u0432 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043B\u044C \u043D\u043E\u0439
+      \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u043E\u0439 \u0441\u0442\u0440\u0430\u043D\u0435. "
+    - "\u0412\u0441\u0451 \u0432\u043E\u043A\u0440\u0443\u0433 \u0431\u044B\u043B\u043E
+      \u044F\u0440\u043A\u0438\u043C \u0438 \u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u043C,
+      \u0430 \u0432 \u0432\u043E\u0437\u0434\u0443\u0445\u0435 \u0432\u0438\u0442\u0430\u043B\u0438
+      \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u044B\u0435 \u0430\u0440\u043E\u043C\u0430\u0442\u044B."
+    - "\u041F\u0435\u0440\u0435\u0434 \u043D\u0438\u043C \u0441\u0442\u043E\u044F\u043B
+      \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0434\u043E\u043C\u0438\u043A,
+      \u0438\u0437 \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u0432\u044B\u0448\u043B\u0430
+      \u0441\u0442\u0430\u0440\u0443\u0448\u043A\u0430. \u041E\u043D\u0430 \u0443\u043B\u044B\u0431\u043D\u0443\u043B\u0430\u0441\u044C
+      \u0422\u0438\u043C\u0443 \u0438 \u0441\u043A\u0430\u0437\u0430\u043B\u0430:"
+    - "\u201C\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
+      \u0432 \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u0443\u044E \u0441\u0442\u0440\u0430\u043D\u0443,
+      \u0422\u0438\u043C! \u041C\u044B \u0436\u0434\u0430\u043B\u0438 \u0442\u0435\u0431\u044F.\u201D"
+    - "\u0422\u0438\u043C\u0443 \u0431\u044B\u043B\u043E \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E
+      \u0443\u0437\u043D\u0430\u0442\u044C, \u0447\u0442\u043E \u044D\u0442\u043E
+      \u0437\u0430 \u0441\u0442\u0440\u0430\u043D\u0430 \u0438 \u043F\u043E\u0447\u0435\u043C\u0443
+      \u0435\u0433\u043E \u0436\u0434\u0430\u043B\u0438."
+    - "\u0421\u0442\u0430\u0440\u0443\u0448\u043A\u0430 \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u043B\u0430,
+      \u0447\u0442\u043E \u044D\u0442\u0430 \u0441\u0442\u0440\u0430\u043D\u0430
+      \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043C\u0435\u0441\u0442\u043E\u043C,
+      \u0433\u0434\u0435 \u0441\u0431\u044B\u0432\u0430\u044E\u0442\u0441\u044F \u043C\u0435\u0447\u0442\u044B
+      \u0438 \u0436\u0435\u043B\u0430\u043D\u0438\u044F."
+    - "\u041A\u0430\u0436\u0434\u044B\u0439, \u043A\u0442\u043E \u043F\u043E\u043F\u0430\u0434\u0430\u0435\u0442
+      \u0441\u044E\u0434\u0430, \u043C\u043E\u0436\u0435\u0442 \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+      \u043E\u0434\u043D\u043E \u0441\u0432\u043E\u0435 \u0436\u0435\u043B\u0430\u043D\u0438\u0435
+      \u0438 \u043E\u043D\u043E \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+      \u0441\u0431\u0443\u0434\u0435\u0442\u0441\u044F."
+    - "\u041D\u043E \u043F\u0440\u0435\u0436\u0434\u0435 \u0447\u0435\u043C \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+      \u0436\u0435\u043B\u0430\u043D\u0438\u0435, \u0422\u0438\u043C\u0443\u043F\u0440\u0435\u0434\u0441\u0442\u043E\u044F\u043B\u043E
+      \u043F\u0440\u043E\u0439\u0442\u0438 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
+      \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u0439, \u0447\u0442\u043E\u0431\u044B
+      \u0434\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0441\u0432\u043E\u044E \u0433\u043E\u0442\u043E\u0432\u043D\u043E\u0441\u0442\u044C
+      \u043A \u044D\u0442\u043E\u043C\u0443."
+    - "\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u043E\u043D \u0434\u043E\u043B\u0436\u0435\u043D
+      \u0431\u044B\u043B \u043D\u0430\u0439\u0442\u0438 \u043A\u043B\u044E\u0447,
+      \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u043B
+      \u0434\u0432\u0435\u0440\u044C \u0432 \u043A\u043E\u043D\u0446\u0435 \u043A\u0430\u0436\u0434\u043E\u0433\u043E
+      \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u044F."
+    questToGetAccess: 
+    questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
+  nameItem: "\u041C\u0430\u044F\u0442\u043D\u0438\u043A"
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
+--- !u!65 &414787779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414787773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.442765, y: 7.919337, z: 48.73626}
+  m_Center: {x: -3.8988452, y: 2.9948106, z: -23.368279}
 --- !u!1001 &416688601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3918,6 +4054,15 @@ PrefabInstance:
     - {fileID: -8700617353114198275, guid: c47794f7d3f78b945adc2de51dae8319, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c47794f7d3f78b945adc2de51dae8319, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1643606986}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c47794f7d3f78b945adc2de51dae8319, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1643606985}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c47794f7d3f78b945adc2de51dae8319, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1643606984}
     - targetCorrespondingSourceObject: {fileID: -516098083770646512, guid: c47794f7d3f78b945adc2de51dae8319, type: 3}
       insertIndex: -1
       addedObject: {fileID: 342869413}
@@ -5414,8 +5559,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monologsLines: []
-  nameItem: 
+  monologsLines:
+  - lines:
+    - "\u041F\u0440\u0438\u0432\u0435\u0442, \u043D\u043E\u0432\u0435\u043D\u044C\u043A\u0438\u0439."
+    - "\u0417\u043D\u0430\u044E, \u0447\u0442\u043E \u0431\u0443\u0434\u0435\u0442
+      \u0434\u0430\u043B\u044C\u0448\u0435, \u0442\u043E\u0436\u0435 \u0447\u0435\u0440\u0435\u0437
+      \u044D\u0442\u043E \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u043B, \u0431\u0435\u0440\u0438
+      \u0438 \u043F\u043E\u0439\u0434\u0451\u043C."
+    - "\u0422\u044B \u0436\u0435 \u0437\u043D\u0430\u0435\u0448\u044C, \u0447\u0442\u043E
+      \u043D\u0430\u0434\u043E \u0434\u0435\u043B\u0430\u0442\u044C \u0441 \u043A\u043B\u044E\u0447\u0430\u043C\u0438?."
+    - "\u0412\u0441\u0442\u0440\u0435\u0442\u0438\u043C\u0441\u044F \u0435\u0449\u0451,
+      \u0438 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0433\u043E \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0442\u044C
+      \u0431\u0443\u0434\u0435\u043C."
+    questToGetAccess: CanTalkWithKey
+    questToCompleteAfter: 
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 842064732}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 842064732}
+    objectOnEndEnabled1: 0
+  nameItem: "\u041A\u043B\u044E\u0447"
   canStartAgain: 1
   objectOnStart: {fileID: 0}
   objectOnStartEnabled: 0
@@ -7248,6 +7412,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5868161895077924428, guid: 784bbfc50e7f6bb49bcb9e8daae48323, type: 3}
+--- !u!1 &842064732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 390431704957670489, guid: ea4ee5706916a754fbc0ff5963b98f25, type: 3}
+  m_PrefabInstance: {fileID: 1078643625}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &844615133 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
@@ -8904,7 +9073,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8961,14 +9130,14 @@ MonoBehaviour:
       \u043F\u043E\u0434 \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E\u0433\u043E."
     - "\u041E\u0441\u0442\u0430\u0432\u044C \u043C\u0435\u043D\u044F."
     questToGetAccess: CanTalkWithClock
-    questToCompleteAfter: 
+    questToCompleteAfter: CanTalkWithBed
     objectOnStart: {fileID: 0}
     objectOnStartEnabled: 0
     objectOnEnd: {fileID: 0}
     objectOnEndEnabled: 0
     objectOnEnd1: {fileID: 0}
     objectOnEndEnabled1: 0
-  nameItem: 
+  nameItem: "\u0422\u0438\u043C"
   canStartAgain: 1
   objectOnStart: {fileID: 0}
   objectOnStartEnabled: 0
@@ -13064,7 +13233,7 @@ GameObject:
   - component: {fileID: 1459100130}
   - component: {fileID: 1459100129}
   - component: {fileID: 1459100134}
-  - component: {fileID: 1459100133}
+  - component: {fileID: 1459100135}
   m_Layer: 0
   m_Name: CubeRB
   m_TagString: Untagged
@@ -13187,41 +13356,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459100127}
   m_Mesh: {fileID: -5495902117074765545, guid: b4a0a1e0251abde4a9fb9724b283e76e, type: 3}
---- !u!114 &1459100133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459100127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monologsLines:
-  - lines:
-    - "\u041E\u0439 \u0438\u0437\u0432\u0438\u043D\u0438 \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
-      \u043D\u0435\u043B\u043E\u0432\u043A\u043E \u0432\u044B\u0448\u043B\u043E"
-    - "\u041F\u0440\u043E\u0441\u0442\u043E \u0433\u0432\u043E\u0437\u0434\u0438
-      \u043D\u0430 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u044F \u0434\u0435\u0440\u0436\u0443\u0441\u044C
-      \u0434\u0430\u0432\u043D\u043E \u0437\u0430\u0440\u0436\u0430\u0432\u0435\u043B\u0438"
-    - "\u0421\u043C\u043E\u0436\u0435\u0448\u044C \u043F\u043E\u0434\u043D\u044F\u0442\u044C
-      \u043C\u0435\u043D\u044F ?"
-    questToGetAccess: 
-    questToCompleteAfter: 
-    objectOnStart: {fileID: 0}
-    objectOnStartEnabled: 0
-    objectOnEnd: {fileID: 959883671}
-    objectOnEndEnabled: 1
-    objectOnEnd1: {fileID: 1459100127}
-    objectOnEndEnabled1: 0
-  nameItem: "\u0423\u043F\u0430\u0432\u0448\u0430\u044F \u043A\u0430\u0440\u0442\u0438\u043D\u0430"
-  canStartAgain: 1
-  objectOnStart: {fileID: 0}
-  objectOnStartEnabled: 0
-  objectOnEnd: {fileID: 0}
-  objectOnEndEnabled: 0
 --- !u!114 &1459100134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13238,6 +13372,58 @@ MonoBehaviour:
   isKey: 0
   isRealKey: 0
   isManiak: 0
+--- !u!114 &1459100135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459100127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - ........
+    - ........
+    - "\u0421\u043F\u0430\u043B\u0438\u043B\u0441\u044F \u044F, \u0434\u0430?"
+    - "\u0422\u043E\u043A\u043E \u043D\u0435 \u0441\u0434\u0430\u0432\u0430\u0439
+      \u043C\u0435\u043D\u044F, \u0447\u0435\u043B, \u044F \u043F\u0440\u043E\u0441\u0442\u043E
+      \u043F\u043E\u043A\u0435\u043C\u0430\u0440\u0438\u0442\u044C \u0445\u043E\u0442\u0435\u043B
+      \u0440\u0430\u0437 \u0443\u0436 \u0442\u0430\u043A \u0432\u0441\u0451 \u0432\u044B\u0432\u0435\u0440\u043D\u0443\u043B\u043E\u0441\u044C."
+    - "\u0422\u0443\u0442 \u0433\u0434\u0435-\u0442\u043E \u0447\u0443\u0432\u0430\u043A
+      \u0445\u043E\u0434\u0438\u043B, \u0442\u043E\u0436\u0435 \u0442\u0438\u043F\u0430
+      \u0445\u043E\u0434\u0443\u043D, \u0438\u043B\u0438 \u043A\u0430\u043A \u043E\u043D\u0438
+      \u0438\u0445 \u043D\u0430\u0437\u044B\u0432\u0430\u044E\u0442..."
+    - "\u0422\u043E\u043A\u043E \u043E\u043D \u0443\u0436\u0435 \u0447\u0430\u0441\u044B
+      \u043F\u043E\u0447\u0442\u0438, \u043D\u0435 \u0437\u043D\u0430\u043B \u043F\u043E\u0434\u0438,
+      \u0447\u0442\u043E \u043F\u043E\u043A\u043E\u0435\u043D\u043D\u0438\u043A\u0438 
+      \u0442\u0443\u0442 \u0434\u043E\u043B\u0433\u043E \u043D\u0435 \u0436\u0438\u0432\u0443\u0442,
+      \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E \u0432 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0438,
+      \u0436\u0438\u0437\u043D\u044C \u0441\u043A\u043E\u0440\u043E\u0442\u0435\u0447\u043D\u0430,
+      \u043A\u043E\u0440\u043E\u0447\u0435 \u0442\u044B \u043F\u043E\u043D\u044F\u043B."
+    - "\u041E\u043D, \u043A\u0441\u0442\u0430\u0442\u0438, \u043A\u0443\u0434\u0430-\u0442\u043E
+      \u0432\u0430\u0449\u0435 \u0432 \u043A\u043E\u043D\u0435\u0446 \u0434\u043E\u043C\u0430
+      \u0437\u0430\u0431\u0438\u043B\u0441\u044F, \u043F\u043E\u0440\u044B\u0441\u043A\u0430\u0439
+      \u0442\u0430\u043C, \u043D\u043E \u0447\u0435\u043B \u043E\u043D \u0436\u0443\u0442\u043A\u0438\u0439,
+      \u043C\u043E\u043B\u0438\u0441\u044C, \u0447\u0442\u043E\u0431 \u043D\u0435
+      \u043F\u043E\u043B\u043E\u043C\u0430\u043B \u0442\u0435\u0431\u044F. "
+    questToGetAccess: CanTalkWithImage
+    questToCompleteAfter: CanTalkWithClock
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
+  nameItem: "\u0423\u043F\u0430\u0432\u0448\u0430\u044F \u043A\u0430\u0440\u0442\u0438\u043D\u0430"
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
 --- !u!1001 &1465405820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14548,6 +14734,109 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2114582022}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1643606982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c47794f7d3f78b945adc2de51dae8319, type: 3}
+  m_PrefabInstance: {fileID: 525873360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1643606984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643606982}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.541467, y: 2.637705, z: 22.403814}
+  m_Center: {x: -0.2000221, y: 0.81885254, z: 3.2952845}
+--- !u!114 &1643606985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643606982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d588133c5c204aa607b3d3a917ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canTake: 0
+  isKey: 0
+  isRealKey: 0
+  isManiak: 0
+--- !u!114 &1643606986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643606982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e9723e66623bb4f9304ef64d6e1c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monologsLines:
+  - lines:
+    - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E, \u043C\u0435\u043D\u044F
+      \u0432\u0435\u043B\u0438\u0447\u0430\u044E\u0442 \u043C\u0438\u0441\u0442\u0435\u0440
+      \u0441\u0442\u043E\u043B, \u043F\u0440\u0438\u044F\u0442\u043D\u043E \u0441
+      \u0432\u0430\u043C\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u044C\u0441\u044F,
+      \u0442\u043E\u0432\u0430\u0440\u0438\u0449 \u0445\u043E\u0434\u044F\u0449\u0438\u0439."
+    - ....
+    - "\u042D\u0442\u0438 \u0442\u0443\u043F\u043E\u0440\u044B\u043B\u044B\u0435
+      \u0447\u0430\u0441\u044B \u0442\u0435\u0431\u0435 \u0432\u0435\u0434\u044C
+      \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B\u0438 \u0432\u0441\u0451
+      \u0434\u0430?"
+    - "\u041C\u0443\u0441\u043E\u0440, \u043D\u0435\u0434\u043E\u0441\u0442\u043E\u0439\u043D\u044B\u0439
+      \u0436\u0438\u0437\u043D\u0438, \u0431\u044B\u0441\u0442\u0440\u0435\u0435
+      \u0431\u044B \u0435\u0433\u043E \u0437\u0430\u0431\u0440\u0430\u043B\u0438,
+      \u043F\u043E\u043A\u043E\u0435\u043D\u043D\u0438\u043A\u0430\u043C \u043C\u043E\u0437\u0433\u043E\u0432
+      \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0434\u0440\u0443\u0433\u0438\u0445
+      \u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432 \u042D\u0422\u041E\u041C
+      \u0416\u0415 \u041F\u041E\u041A\u041E\u0415."
+    - "\u041F\u0440\u043E\u0441\u0442\u0438\u0442\u0435, \u043C\u043D\u0435 \u043F\u0440\u043E\u0441\u0442\u043E
+      \u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F, \u0447\u0442\u043E
+      \u0433\u043B\u0443\u043F\u0446\u044B \u043F\u043E\u0434\u043E\u0431\u043D\u044B\u043C
+      \u043E\u0431\u0440\u0430\u0437\u043E\u043C \u043E\u0442\u043D\u043E\u0441\u044F\u0442\u0441\u044F
+      \u043A \u0433\u0435\u043D\u0438\u044F\u043C. "
+    - "\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u0432\u0440\u043E\u0434\u0435
+      \u0442\u043E\u0436\u0435 \u0431\u044B\u043B, \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439
+      \u0442\u0430\u043A\u043E\u0439 \u043F\u043E\u043A\u043E\u0435\u043D\u043D\u0438\u043A,
+      \u0432\u044B\u0441\u043E\u043A\u0438\u0439 \u0438 \u0442\u0443\u043F\u043E\u0439
+      \u0443\u0436\u0435 \u0434\u0430\u0432\u043D\u043E \u0442\u0443\u0442, \u0430
+      \u043D\u043E\u0432\u044B\u0435 \u043D\u0430 \u043E\u0448\u0438\u0431\u043A\u0430\u0445
+      \u043D\u0435 \u0443\u0447\u0430\u0442\u0441\u044F."
+    - "\u041D\u0430\u0439\u0434\u0438 \u044D\u0442\u043E\u0433\u043E \u043F\u043E\u043B\u043E\u043C\u044B\u0448\u0430,
+      \u0435\u0433\u043E \u043E\u0447\u0435\u0440\u0435\u0434\u044C \u0431\u044B\u0442\u044C
+      \u0442\u0435\u043C, \u043A\u0442\u043E \u041A\u043B\u044E\u0447\u043E\u043C
+      \u0437\u043E\u0432\u0451\u0442\u0441\u044F."
+    questToGetAccess: CanTalkWithBed
+    questToCompleteAfter: CanTalkWithKey
+    objectOnStart: {fileID: 0}
+    objectOnStartEnabled: 0
+    objectOnEnd: {fileID: 0}
+    objectOnEndEnabled: 0
+    objectOnEnd1: {fileID: 0}
+    objectOnEndEnabled1: 0
+  nameItem: "\u041A\u0440\u043E\u0432\u0430\u0442\u044C"
+  canStartAgain: 1
+  objectOnStart: {fileID: 0}
+  objectOnStartEnabled: 0
+  objectOnEnd: {fileID: 0}
+  objectOnEndEnabled: 0
 --- !u!1001 &1649573794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16779,6 +17068,10 @@ MonoBehaviour:
     isCompleted: 0
   - questName: CanTalkWithClock
     isCompleted: 0
+  - questName: CanTalkWithBed
+    isCompleted: 0
+  - questName: CanTalkWithKey
+    isCompleted: 0
 --- !u!1001 &1948405562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17114,6 +17407,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -4683669308469848369, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17144,6 +17441,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8416272007918961125, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 282473876}
+    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 414787779}
+    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 414787778}
+    - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 414787777}
   m_SourcePrefab: {fileID: 100100000, guid: e48c25252a2ac984d89db231ac19ded5, type: 3}
 --- !u!1001 &2013233772
 PrefabInstance:
