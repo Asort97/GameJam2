@@ -27,8 +27,6 @@ public class ScreenFade : MonoBehaviour
 	void Start () {
         instance = this;
         DontDestroyOnLoad(gameObject);
-
-        StartCoroutine(cor());
 	}
 	
 	// Update is called once per frame
